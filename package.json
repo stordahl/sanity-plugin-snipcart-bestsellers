@@ -1,0 +1,53 @@
+{
+  "name": "sanity-plugin-snipcart-bestsellers",
+  "version": "1.0.0",
+  "description": "A dashboard widget for viewing top sellers from Snipcart",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "sanipack build",
+    "prepublishOnly": "sanipack build && sanipack verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stordahl/sanity-plugin-snipcart-bestsellers.git"
+  },
+  "keywords": [
+    "sanity",
+    "sanity-plugin"
+  ],
+  "author": "Jacob Størdahl <jacob@stordahl.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "15.7.2"
+  },
+  "devDependencies": {
+    "eslint": "7.19.0",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-config-sanity": "5.0.0",
+    "eslint-plugin-react": "7.22.0",
+    "prettier": "2.2.1",
+    "sanipack": "1.0.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/stordahl/sanity-plugin-snipcart-bestsellers/issues"
+  },
+  "homepage": "https://github.com/stordahl/sanity-plugin-snipcart-bestsellers#readme",
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "parser": "sanipack/babel/eslint-parser",
+    "extends": [
+      "sanity",
+      "sanity/react",
+      "prettier",
+      "prettier/react"
+    ]
+  }
+}
