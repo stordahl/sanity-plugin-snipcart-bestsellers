@@ -1,4 +1,4 @@
-# sanity-plugin-snipcart-bestsellers
+# sanity-plugin-snipcart-bestsellers 🔌
 
 A dashboard widget for viewing top sellers from Snipcart.
 This plugin is a part of the Steel headless commerce sudo framework.
